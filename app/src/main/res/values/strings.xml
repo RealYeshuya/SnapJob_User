@@ -1,0 +1,110 @@
+<resources>
+    <!-- APP NAME -->
+    <string name="app_name">SnapJob</string>
+    <string name="snap">SNAP</string>
+    <string name="job">JOB</string>
+
+    <!-- EditText Hint -->
+    <string name="txtName">Name</string>
+    <string name="txtFullName">Full Name</string>
+    <string name="txtEmail">Email</string>
+    <string name="txtPhoneNumber">Phone Number</string>
+    <string name="txtEmailAdd">Email Address</string>
+    <string name="txtPassword">Password</string>
+    <string name="txtForgotPassword">Forgot Password?</string>
+    <string name="txtResetPassword">Reset Password</string>
+    <string name="txtConPassword">Confirm Password</string>
+
+    <!-- Edit Display -->
+    <string name="txtDisplayName">Full Name:</string>
+    <string name="txtDisplayEmail">Email Address:</string>
+
+    <!-- Home Display -->
+    <string name="available">All Workers Available</string>
+
+    <!-- Button Name-->
+    <string name="btnLogin">Login</string>
+    <string name="btnLogOut">Logout</string>
+    <string name="btnRegister">Register</string>
+    <string name="btnReset">Reset</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="buttonHire">Hire</string>
+    <string name="buttonChat">Chat</string>
+    <string name="btnEditPr">Edit Profile</string>
+    <string name="btnFindFavs">Find out new Favorites</string>
+
+    <!-- Worker Profile -->
+    <string name="txtJob">Job / Specialty</string>
+    <string name="txtWorkerEmail">Email</string>
+    <string name="txtWorkerPhoneNumber">Phone Number</string>
+    <string name="txtExp">Experience</string>
+    <string name="txtDeg">Degree / Certification</string>
+    <string name="txtFee">Fee</string>
+    <string name="txtWorks">Works</string>
+
+    <!-- Browse -->
+    <string name="searchTxt">Find someone to hire</string>
+    <string name="browseTxt">Browse</string>
+
+    <!-- Address -->
+    <string name="txtAdd">Addresses</string>
+    <string name="btnNewAdd">Add New Address</string>
+
+    <!-- Favorites -->
+    <string name="txtFav">Favorites</string>
+
+    <!-- Transaction -->
+    <string name="txtTransactions">Transactions</string>
+    <string name="ongoing">Ongoing</string>
+    <string name="transactionHistory">Transaction History</string>
+    <string name="confirmPayment">Confirm Payment</string>
+
+    <!-- Hired -->
+    <string name="subtotal">Subtotal</string>
+    <string name="transFee">Transportation Fee</string>
+    <string name="voucher">Voucher Discount</string>
+    <string name="totalFee">Total Fee</string>
+    <string name="transDetail">Transaction Details</string>
+    <string name="payDetail">Payment Details</string>
+    <string name="worker">Worker Name:</string>
+    <string name="workerJob">Worker Job:</string>
+    <string name="transNumber">Transaction Number:</string>
+    <string name="clientAdd">Client Address:</string>
+    <string name="etimeArrival">Estimated Time Arrival</string>
+
+    <!-- Loading -->
+    <string name="loading">Loading…</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="profileOptions">
+        <item>Edit Profile</item>
+        <item>Transaction History</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="filter">
+        <item>Name</item>
+        <item>Job</item>
+    </string-array>
+    <string name="filter">Search Filter</string>
+
+    <!-- GPS -->
+    <string name="permission_require">Location permission required</string>
+    <string name="workers_not_found">Workers not found</string>
+    <string name="not_found_key">Not found worker with key</string>
+    <string name="title_activity_request_worker">Map</string>
+    <string name="welcome">Good Morning</string>
+    <string name="choose_a_saved_place">Choose a saved place</string>
+    <string name="confirm_pickup_spot">Confirm Pickup Spot?</string>
+    <string name="confirm_spot">Confirm</string>
+    <string name="city_name_empty">City name is empty</string>
+    <string name="waiting_request">Waiting for Request</string>
+    <string name="submitReview">Submit Review</string>
+    <string name="confirmReview">Confirm Review</string>
+    <string name="viewReview">View Review</string>
+    <string name="viewRating">View Rating</string>
+    <string name="viewReviews">View Reviews</string>
+    <string name="reviewTxt">Reviews</string>
+    <string name="txtExperience">Experience</string>
+    <string name="txtWorkDesc">Work Description</string>
+</resources>

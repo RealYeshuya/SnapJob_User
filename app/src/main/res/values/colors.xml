@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F4AC0C</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="border_color">#D3D3D3</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#F4AC0C</color>
+    <color name="black">#000</color>
+    <color name="map_darker">#33333333</color>
+</resources>

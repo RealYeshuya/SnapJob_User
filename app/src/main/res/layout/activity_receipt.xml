@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".Receipt">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431">
+
+        <TextView
+            android:id="@+id/transID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="18dp"
+            android:paddingLeft="15dp"
+            android:text="TextView"
+            android:textSize="16dp"
+            android:fontFamily="@font/raleway_semibold"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/clientNameR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="18dp"
+            android:paddingLeft="15dp"
+            android:text="TextView"
+            android:textSize="16dp"
+            android:fontFamily="@font/raleway_semibold"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/descriptionR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="18dp"
+            android:paddingLeft="15dp"
+            android:text="TextView"
+            android:textSize="16dp"
+            android:fontFamily="@font/raleway_semibold"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/workerNameR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="18dp"
+            android:paddingLeft="15dp"
+            android:text="TextView"
+            android:textSize="16dp"
+            android:fontFamily="@font/raleway_semibold"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/clientAddR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="18dp"
+            android:paddingLeft="15dp"
+            android:text="TextView"
+            android:textSize="16dp"
+            android:fontFamily="@font/raleway_semibold"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/dateR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="18dp"
+            android:paddingLeft="15dp"
+            android:text="TextView"
+            android:textSize="16dp"
+            android:fontFamily="@font/raleway_semibold"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/transFeeReceipt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="18dp"
+            android:paddingLeft="15dp"
+            android:text="Transaction Fee: Php 250"
+            android:textSize="16dp"
+            android:fontFamily="@font/raleway_semibold"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/transStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_semibold"
+            android:paddingLeft="15dp"
+            android:paddingTop="18dp"
+            android:text="TextView"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/reasonDecline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:fontFamily="@font/raleway_semibold"
+            android:paddingLeft="15dp"
+            android:paddingTop="18dp"
+            android:text="TextView"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Official Receipt"
+        android:fontFamily="@font/raleway_semibold"
+        android:textColor="#000"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_semibold"
+        android:text="(please take a screenshot if necessary)"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <Button
+        android:id="@+id/paymentConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
+        android:text="@string/confirmPayment"
+        android:background="@drawable/button_login"
+        android:fontFamily="@font/raleway_semibold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.653" />
+
+    <Button
+        android:id="@+id/workerReview"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
+        android:text="@string/submitReview"
+        android:background="@drawable/button_login"
+        android:fontFamily="@font/raleway_semibold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.653" />
+</androidx.constraintlayout.widget.ConstraintLayout>
